@@ -12,6 +12,11 @@
 		ACB96E8B1F4E3E62003CDBAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACB96E891F4E3E62003CDBAF /* Main.storyboard */; };
 		ACB96E8D1F4E3E62003CDBAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACB96E8C1F4E3E62003CDBAF /* Assets.xcassets */; };
 		ACB96E901F4E3E62003CDBAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACB96E8E1F4E3E62003CDBAF /* LaunchScreen.storyboard */; };
+		ACB96E981F4E5658003CDBAF /* terceiraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB96E971F4E5658003CDBAF /* terceiraView.swift */; };
+		ACB96E9A1F4E61F4003CDBAF /* StoryboardTab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACB96E991F4E61F4003CDBAF /* StoryboardTab.storyboard */; };
+		ACB96E9C1F4E64C6003CDBAF /* ViewControllerTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB96E9B1F4E64C6003CDBAF /* ViewControllerTab.swift */; };
+		ACB96E9F1F4E655E003CDBAF /* ViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB96E9D1F4E655E003CDBAF /* ViewControllerTest.swift */; };
+		ACB96EA01F4E655E003CDBAF /* ViewControllerTest.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACB96E9E1F4E655E003CDBAF /* ViewControllerTest.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		ACB96E8C1F4E3E62003CDBAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACB96E8F1F4E3E62003CDBAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ACB96E911F4E3E62003CDBAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACB96E971F4E5658003CDBAF /* terceiraView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = terceiraView.swift; sourceTree = "<group>"; };
+		ACB96E991F4E61F4003CDBAF /* StoryboardTab.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = StoryboardTab.storyboard; sourceTree = "<group>"; };
+		ACB96E9B1F4E64C6003CDBAF /* ViewControllerTab.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerTab.swift; sourceTree = "<group>"; };
+		ACB96E9D1F4E655E003CDBAF /* ViewControllerTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerTest.swift; sourceTree = "<group>"; };
+		ACB96E9E1F4E655E003CDBAF /* ViewControllerTest.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewControllerTest.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +70,11 @@
 				ACB96E8C1F4E3E62003CDBAF /* Assets.xcassets */,
 				ACB96E8E1F4E3E62003CDBAF /* LaunchScreen.storyboard */,
 				ACB96E911F4E3E62003CDBAF /* Info.plist */,
+				ACB96E971F4E5658003CDBAF /* terceiraView.swift */,
+				ACB96E991F4E61F4003CDBAF /* StoryboardTab.storyboard */,
+				ACB96E9D1F4E655E003CDBAF /* ViewControllerTest.swift */,
+				ACB96E9E1F4E655E003CDBAF /* ViewControllerTest.xib */,
+				ACB96E9B1F4E64C6003CDBAF /* ViewControllerTab.swift */,
 			);
 			path = aula04;
 			sourceTree = "<group>";
@@ -124,8 +139,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACB96E901F4E3E62003CDBAF /* LaunchScreen.storyboard in Resources */,
+				ACB96EA01F4E655E003CDBAF /* ViewControllerTest.xib in Resources */,
 				ACB96E8D1F4E3E62003CDBAF /* Assets.xcassets in Resources */,
 				ACB96E8B1F4E3E62003CDBAF /* Main.storyboard in Resources */,
+				ACB96E9A1F4E61F4003CDBAF /* StoryboardTab.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,8 +153,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACB96E9C1F4E64C6003CDBAF /* ViewControllerTab.swift in Sources */,
 				ACB96E881F4E3E62003CDBAF /* ViewController.swift in Sources */,
 				ACB96E861F4E3E62003CDBAF /* AppDelegate.swift in Sources */,
+				ACB96E981F4E5658003CDBAF /* terceiraView.swift in Sources */,
+				ACB96E9F1F4E655E003CDBAF /* ViewControllerTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
